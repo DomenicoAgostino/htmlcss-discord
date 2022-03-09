@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.container {
+  width: 80%;
+  height: 200px;
+  background: #25FF00;
+  margin: 0 auto;
+  }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;;
+}
+
+img.logo {
+  vertical-align: middle;
+  margin-right: 250px;
+  }
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a.sending {
+  margin-left: 60px;
+  
+
+}
+
+.jumbotron {
+  position: relative;
+  margin: 10px auto;
+  height:100vh;
+  background-image: url(../img/jumbo.png);
+}
+
