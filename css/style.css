@@ -16,7 +16,7 @@ header {
 
 .container {
   width: 80%;
-  height: 40px;
+  height: 130px;
   background: rgb(37, 94, 233);
   margin: 0 auto;
   }
@@ -33,38 +33,100 @@ img.logo {
   margin-right: 250px;
   }
 
-nav ul li a {
+nav ul  {
   text-decoration: none;
   color: white;
 
 }
 
 a.sending {
-  margin-left: 60px;
-  
+  margin-left: 47px;
+  color: white;
+  text-decoration: none;
+ 
 
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 a.bottone {
-  display: inline-block;
-  padding: 3px 6px;
-  background-color: white;
-  color: black;
-  border: 1px solid #222;
-  border-radius: 10px;
   text-decoration: none;
-  font-family: arial, verdana, sans-serif;
-  font-size: 12px;
-  cursor: pointer;
 }
+
+li:last-child {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: white;
+  border-radius: 102px;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 140px;
+  margin-right: 0;
+}
+
 
 /* Section Jumbotron */
 
-.jumbotron {
-
-  height:100vh;
+.jumbotron{
+  position: relative;
+  height: 480px;
+  margin-bottom: 80px;
   background-image: url(../img/jumbo.png);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
 }
+
+.jumbotron .info-jumb {
+position: absolute;
+width: 34%;
+padding-left: 35px;
+text-align: center;
+top: 27%;
+left: 44%;
+transform: translate(-50%, -50%);
+}
+
+.info-jumb h1 {
+  font-size: 45px;
+}
+
+.info-jumb p {
+  font-size: 20px;
+}
+
+.bottone-maxi {
+  display: inline-block;
+  padding: 10px 23px;
+  border-radius: 102px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 13px;
+  margin-top: 9px;
+}
+
+
+#black-botton {
+  background-color: rgb(35, 39, 42);
+  color: white;
+}
+
+#white-botton {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
 
 
 
