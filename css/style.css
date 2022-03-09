@@ -1,3 +1,5 @@
+
+/* Generale */
 *{
   margin: 0;
   padding: 0;
@@ -5,16 +7,25 @@
 }
 
 
+/* Head */
+
+header {
+  background-color: rgb(37, 94, 233);
+}
+
+
 .container {
   width: 80%;
-  height: 200px;
-  background: #25FF00;
+  height: 40px;
+  background: rgb(37, 94, 233);
   margin: 0 auto;
   }
 
+
 nav ul li {
   list-style: none;
-  display: inline-block;;
+  display: inline-block;
+  margin-top: 15px;
 }
 
 img.logo {
@@ -34,10 +45,27 @@ a.sending {
 
 }
 
+a.bottone {
+  display: inline-block;
+  padding: 3px 6px;
+  background-color: white;
+  color: black;
+  border: 1px solid #222;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: arial, verdana, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Section Jumbotron */
+
 .jumbotron {
-  position: relative;
-  margin: 10px auto;
+
   height:100vh;
   background-image: url(../img/jumbo.png);
 }
+
+
+
 
