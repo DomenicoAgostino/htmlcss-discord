@@ -14,9 +14,14 @@ header {
 }
 
 
+h2 {
+  font-size: 35x;
+}
+
+
 .container {
   width: 80%;
-  height: 130px;
+  height: 180px;
   background: rgb(37, 94, 233);
   margin: 0 auto;
   }
@@ -30,7 +35,6 @@ nav ul li {
 
 img.logo {
   vertical-align: middle;
-  margin-right: 250px;
   }
 
 nav ul  {
@@ -40,7 +44,7 @@ nav ul  {
 }
 
 a.sending {
-  margin-left: 47px;
+  margin-left: 136px;
   color: white;
   text-decoration: none;
  
@@ -69,13 +73,11 @@ li:last-child {
   margin-right: 0;
 }
 
-
 /* Section Jumbotron */
 
 .jumbotron{
   position: relative;
   height: 480px;
-  margin-bottom: 80px;
   background-image: url(../img/jumbo.png);
   background-position: center;
   background-size: cover;
@@ -83,7 +85,7 @@ li:last-child {
   color: white;
 }
 
-.jumbotron .info-jumb {
+.jumbotron .info-jumbo {
 position: absolute;
 width: 34%;
 padding-left: 35px;
@@ -93,11 +95,11 @@ left: 44%;
 transform: translate(-50%, -50%);
 }
 
-.info-jumb h1 {
+.info-jumbo h1 {
   font-size: 45px;
 }
 
-.info-jumb p {
+.info-jumbo p {
   font-size: 20px;
 }
 
@@ -121,6 +123,38 @@ transform: translate(-50%, -50%);
 #white-botton {
   background-color: white;
   color: black;
+}
+
+/* Main */
+
+.clear-fix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.box {
+  text-align: left;
+  height: 100%;
+  float: left;
+  margin: auto;
+}
+
+.frog-img{
+  width: 25%;
+  float: left;
+  padding-left: 200px;
+
+}
+.text-frog{
+  width: 40%;
+  float: right;
+  padding-right: 31%;
+
+}
+
+img.item1{
+  width: 100%;
 }
 
 
